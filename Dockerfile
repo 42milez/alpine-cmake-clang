@@ -15,5 +15,3 @@ RUN apk update                     \
         openssh=8.1_p1-r0          \
         zlib-dev=1.2.11-r3         \
     && rm -rf /var/cache/apk/*
-
-WORKDIR /tmp
