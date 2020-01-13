@@ -16,8 +16,4 @@ RUN apk update                     \
         zlib-dev=1.2.11-r3         \
     && rm -rf /var/cache/apk/*
 
-ENV APP_ROOT /var/app
-
-RUN mkdir $APP_ROOT
-
-WORKDIR $APP_ROOT
+WORKDIR /root
