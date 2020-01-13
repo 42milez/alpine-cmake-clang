@@ -10,6 +10,7 @@ RUN apk update                     \
         g++=9.2.0-r3               \
         gcc=9.2.0-r3               \
         git=2.24.1-r0              \
+        git-subtree=2.24.1-r0      \
         linux-headers=4.19.36-r0   \
         make=4.2.1-r2              \
         openssh=8.1_p1-r0          \
