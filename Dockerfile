@@ -9,6 +9,7 @@ RUN apk update                     \
         cmake=3.15.5-r0            \
         g++=9.2.0-r3               \
         gcc=9.2.0-r3               \
+        git=2.24.1-r0              \
         linux-headers=4.19.36-r0   \
         make=4.2.1-r2              \
         zlib-dev=1.2.11-r3         \
