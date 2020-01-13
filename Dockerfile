@@ -12,6 +12,7 @@ RUN apk update                     \
         git=2.24.1-r0              \
         linux-headers=4.19.36-r0   \
         make=4.2.1-r2              \
+        openssh=8.1_p1-r0          \
         zlib-dev=1.2.11-r3         \
     && rm -rf /var/cache/apk/*
 
