@@ -2,7 +2,7 @@ FROM alpine:3.11.2
 
 RUN apk update                     \
     && apk upgrade                 \
-    && apk add --update --no-cache \
+    && apk add --no-cache          \
         bash=5.0.11-r1             \
         build-base=0.5-r1          \
         clang=9.0.0-r1             \
