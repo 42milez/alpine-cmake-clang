@@ -14,5 +14,8 @@ RUN apk update                     \
         linux-headers=4.19.36-r0   \
         make=4.2.1-r2              \
         openssh=8.1_p1-r0          \
+        python3=3.8.1-r0           \
         zlib-dev=1.2.11-r3         \
-    && rm -rf /var/cache/apk/*
+    && rm -rf /var/cache/apk/*     \
+    && pip3 install --upgrade pip  \
+    && pip3 install conan==1.22.2
